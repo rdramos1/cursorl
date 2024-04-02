@@ -1,0 +1,78 @@
+.rubik-font> {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: rubik, Arial, sans-serif;
+}
+
+.main-container {
+    background-color: #0158af;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100vh;
+}
+
+.image-container {
+    flex: 1;
+    height: 100%;
+    background-image: url('img/ima1.png'); 
+    background-size: cover;
+    background-position: right c;
+}
+
+.text-container {
+    background-color: #ffffff;
+    padding: 1px;
+    height: 200px;
+    border-radius: 20px;
+    margin-right: auto; /* Definindo margem à direita automática para centralizar */
+    text-align: center;
+    color: #ffffff;
+}
+
+.text-container{
+    padding: 20px;
+    padding-top: 1px;
+    text-align: center;
+    font-size: 1em;
+    color: #000000;
+}
+#btn{
+    background-color: #008cff;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.5s ease;
+}
+#btn:hover{
+    background-color: #4CAF50;
+}
+
+.info-container {
+    width: 100%;
+    background-color: #ffffff; /* Cor de fundo azul */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
