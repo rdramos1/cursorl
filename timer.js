@@ -1,7 +1,7 @@
 function startTimer() {
   let timerElement = document.getElementById("timer");
   let startTime = localStorage.getItem("startTime");
-  let duration = 2 * 30 * 60 * 1000; // 6 horas em milissegundos
+  let duration = 3 * 30 * 60 * 1000; // 6 horas em milissegundos
 
   if (!startTime) {
     startTime = new Date().getTime();

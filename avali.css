@@ -1,0 +1,22 @@
+.avaliacoes {
+  align-items: center;
+}
+
+.peg {
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+
+#flex {
+  align-items: cente;
+  text-align: center;
+  display: flex;
+}
+
+.img1 {
+  align-items: center;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
