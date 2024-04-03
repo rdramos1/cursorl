@@ -1,0 +1,41 @@
+#infomation {
+  width: 100%;
+  background-color: #ffffff; /* Cor de fundo azul */
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-align: left;
+}
+
+.fort {
+  display: flex;
+  height: 85vh;
+}
+img.fort {
+  margin: auto;
+  display: block;
+}
+
+.format {
+  display: block;
+  align-items: center;
+  text-align: left;
+  font-size: 1.5rem;
+  width: 90%;
+}
+
+.right {
+  text-align: left;
+  display: flex;
+  font-size: 1.6rem;
+  width: 90%;
+}
+
+.img {
+  width: 500px;
+  height: 500px;
+}
+
+#margin {
+  margin: auto;
+  padding: 2rem;
+}

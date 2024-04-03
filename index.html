@@ -1,66 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
     <title>Curso de raciocinio logico</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="info.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body onload="startTimer()">
     <div class="main">
-        <div id="cont">
-            <div id="time">
-                <h1>05:10</h1>
-            </div>
-            <div class="vend">
-                <h1>Curso de raciocínio lógico</h1>
-                <p>Fortaleça a saúde mental e emocional melhorando o seu trabalho dia a dia.</p>
-                <p>Desenvolva a capacidade de tomar decisões e solucionar problemas</p>
-                <p>Melhore os seus relacionamentos interpessoais</p>
-                <a href=""><Button id="btn">ASSINAR AGORA</Button></a>
-            </div>
+      <div id="cont">
+        <div id="time">
+          <h1 id="timer">00:00:00</h1>
         </div>
-        <img src="img/img.png" alt="" class="main">
+        <div class="vend">
+          <h1>Curso de raciocínio lógico</h1>
+          <p>
+            Fortaleça a saúde mental e emocional melhorando o seu trabalho dia a
+            dia.
+          </p>
+          <p>
+            Desenvolva a capacidade de tomar decisões e solucionar problemas
+          </p>
+          <p>Melhore os seus relacionamentos interpessoais</p>
+          <a href=""><button id="btn">ASSINAR AGORA</button></a>
+        </div>
+      </div>
+      <img src="img/img.png" alt="" class="main" />
     </div>
+
     <div id="infomation">
-        <div id="infom1">
-            <div class="infos">
-                <div class="ste">
-                    <img src="img/png-transparent-alarm-clocks-digital-clock-clock-digital-clock-timer-black-and-white-removebg-preview.png" alt="" class="infos">
-                    <h1>Tempo do curso:</h1>
-                </div>
-                <p>3 meses contendo 3 aulas de 2 horas por semana, sendo os dias segunda, quarta, sexta. De 16hrs até 18hrs
-                </p>
-            </div>
-            <div class="infos">
-                <div class="ste">
-                    <img src="img/1f4d6-removebg-preview.png" alt="" class="infos">
-                    <h1>Tópicos que serão ensinados:</h1>
-                </div>
-                <p> Interpretação, Argumentação, Preposição lógica, Tabela-verdade, Diagrama lógico, Quantificadores lógicos
-                </p>
-            </div>
+      <div id="margin">
+        <div class="fort">
+          <div class="format">
+            <h1>Tempo do curso:</h1>
+            <p>
+              Serão 3 meses de curso , ao longo desses 3 meses, haverão 3 aulas
+              sendo uma na segunda-feira, uma na terça-feira e uma na
+              quarta-feira, cada aula contendo 2 horas, de 16:00 da tarde até
+              18:00 .
+            </p>
+          </div>
+          <img src="img/relogio.png" alt="" class="img" />
         </div>
-
-        <div id="infom2">
-            <div class="infos">
-                <div class="ste">
-                    <img src="img/png-transparent-alarm-clocks-digital-clock-clock-digital-clock-timer-black-and-white-removebg-preview.png" alt="" class="infos">
-                    <h1>Custo do curso:</h1>
-                </div>
-                <p>190R$ a mensalidade, porém no primeiro mês haverá 20% de desconto sendo 152R$, podendo ser pago tanto em dinheiro quanto em cartão de débito ou crédito
-                </p>
-            </div>
-            <div class="infos">
-                <div class="ste">
-                    <img src="img/2705-removebg-preview.png" alt="" class="infos">
-                    <h1>Qualidades do curso:</h1>
-                </div>
-                <p>Ar-condicionado,  Professores renomados , 3 salas espaçosas  com 40 lugares na própria empresa que disponibilizou, ou seja, vagas limitadas. Corra já e garanta o seu lugar!</p>
-            </div>
+        <div class="fort">
+          <img src="img/check.png" alt="" class="img" />
+          <div class="format">
+            <h1>Qualidades do curso:</h1>
+            <p>
+              Algumas das várias qualidades do curso são: sala com
+              ar-condicionado, aula com professores renomados , 3 salas
+              espaçosas com 40 lugares na própria empresa que disponibilizou ,
+              ou seja , vagas limitadas . Corra já e garanta o SEU lugar
+            </p>
+          </div>
         </div>
-
+        <div class="fort">
+          <div class="format">
+            <h1>Tópicos que serão ensinados:</h1>
+            <ul>
+              <li>Interpretação</li>
+              <li>Argumentação</li>
+              <li>Preposição</li>
+              <li>lógica</li>
+              <li>Tabela-verdade</li>
+              <li>Diagrama lógico</li>
+              <li>Quantificadores lógicos</li>
+            </ul>
+          </div>
+          <img src="img/livro.png" alt="" />
+        </div>
+      </div>
     </div>
-</body>
+  </body>
+  <script src="timer.js"></script>
 </html>
