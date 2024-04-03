@@ -1,0 +1,35 @@
+h1,
+    p {
+        opacity: 0; /* Inicia com opacidade 0 para o efeito fade in */
+        transform: translateY(20px); /* Inicia 20px abaixo para o efeito de subida */
+        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Transições suaves */
+    }
+
+    h1.fade-in,
+    p.fade-in {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    /* Animação adicional (opcional) */
+    .delayed-fade-in {
+        animation: fadeInAnimation 1s ease-in-out forwards;
+    }
+
+    /* Definição da animação personalizada */
+    @keyframes fadeInAnimation {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /* Novo estilo para a classe 'visible' */
+    .visible {
+        opacity: 1 !important; /* Importante para sobrescrever a transição */
+        transform: translateY(0) !important; /* Importante para sobrescrever a transição */
+    }
