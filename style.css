@@ -24,6 +24,9 @@ img.main {
   color: red;
   font-size: 2rem;
 }
+#preco {
+  color: #000;
+}
 
 #cont {
   margin: auto;
